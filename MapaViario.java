@@ -63,101 +63,101 @@ public class MapaViario {
             System.out.print("Digite o movimento: ");
             movimento = move.nextLine();
 
-            // if (casaAnterior.equals("D")) {
-            //     if (movimentoAnterior.equals("D")){
-            //         while (!(movimento.toUpperCase().equals("S"))){
-            //             System.out.println("----------------------");
-            //             System.out.println("Sentido obrigatório: S");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //             System.out.println("----------------------");
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("S")){
-            //         while (!(movimento.toUpperCase().equals("A"))){
-            //             System.out.println("Sentido obrigatório: A");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("A")){
-            //         while (!(movimento.toUpperCase().equals("W"))){
-            //             System.out.println("Sentido obrigatório: W");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("W")){
-            //         while (!(movimento.toUpperCase().equals("D"))){
-            //             System.out.println("Sentido obrigatório: D");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            // }
+            if (casaAnterior.equals("D")) {
+                if (movimentoAnterior.equals("D")){
+                    while (!(movimento.toUpperCase().equals("S"))){
+                        System.out.println("----------------------");
+                        System.out.println("Sentido obrigatório: S");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                        System.out.println("----------------------");
+                    }
+                }
+                if (movimentoAnterior.equals("S")){
+                    while (!(movimento.toUpperCase().equals("A"))){
+                        System.out.println("Sentido obrigatório: A");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+                if (movimentoAnterior.equals("A")){
+                    while (!(movimento.toUpperCase().equals("W"))){
+                        System.out.println("Sentido obrigatório: W");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+                if (movimentoAnterior.equals("W")){
+                    while (!(movimento.toUpperCase().equals("D"))){
+                        System.out.println("Sentido obrigatório: D");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+            }
 
-            // if (casaAnterior.equals("E")) {
-            //     if (movimentoAnterior.equals("D")){
-            //         while (!(movimento.toUpperCase().equals("W"))){
-            //             System.out.println("Sentido obrigatório: W");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("S")){
-            //         while (!(movimento.toUpperCase().equals("D"))){
-            //             System.out.println("Sentido obrigatório: D");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("A")){
-            //         while (!(movimento.toUpperCase().equals("S"))){
-            //             System.out.println("Sentido obrigatório: S");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            //     if (movimentoAnterior.equals("W")){
-            //         while (!(movimento.toUpperCase().equals("A"))){
-            //             System.out.println("Sentido obrigatório: A");
-            //             System.out.print("Digite o movimento: ");
-            //             movimento = move.nextLine();
-            //         }
-            //     }
-            // }
+            if (casaAnterior.equals("E")) {
+                if (movimentoAnterior.equals("D")){
+                    while (!(movimento.toUpperCase().equals("W"))){
+                        System.out.println("Sentido obrigatório: W");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+                if (movimentoAnterior.equals("S")){
+                    while (!(movimento.toUpperCase().equals("D"))){
+                        System.out.println("Sentido obrigatório: D");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+                if (movimentoAnterior.equals("A")){
+                    while (!(movimento.toUpperCase().equals("S"))){
+                        System.out.println("Sentido obrigatório: S");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+                if (movimentoAnterior.equals("W")){
+                    while (!(movimento.toUpperCase().equals("A"))){
+                        System.out.println("Sentido obrigatório: A");
+                        System.out.print("Digite o movimento: ");
+                        movimento = move.nextLine();
+                    }
+                }
+            }
 
-            // if (casaAnterior.equals(">")) {
-            //     while (!(movimento.toUpperCase().equals("D"))){
-            //         System.out.println("Sentido obrigatório: D");
-            //         System.out.print("Digite o movimento: ");
-            //         movimento = move.nextLine();
-            //     }
-            // }
+            if (casaAnterior.equals(">")) {
+                while (!(movimento.toUpperCase().equals("D"))){
+                    System.out.println("Sentido obrigatório: D");
+                    System.out.print("Digite o movimento: ");
+                    movimento = move.nextLine();
+                }
+            }
 
-            // if (casaAnterior.equals("<")) {
-            //     while (!(movimento.toUpperCase().equals("A"))){
-            //         System.out.println("Sentido obrigatório: A");
-            //         System.out.print("Digite o movimento: ");
-            //         movimento = move.nextLine();
-            //     }
-            // }
+            if (casaAnterior.equals("<")) {
+                while (!(movimento.toUpperCase().equals("A"))){
+                    System.out.println("Sentido obrigatório: A");
+                    System.out.print("Digite o movimento: ");
+                    movimento = move.nextLine();
+                }
+            }
 
-            // if (casaAnterior.equals("v")) {
-            //     while (!(movimento.toUpperCase().equals("S"))){
-            //         System.out.println("Sentido obrigatório: S");
-            //         System.out.print("Digite o movimento: ");
-            //         movimento = move.nextLine();
-            //     }
-            // }
+            if (casaAnterior.equals("v")) {
+                while (!(movimento.toUpperCase().equals("S"))){
+                    System.out.println("Sentido obrigatório: S");
+                    System.out.print("Digite o movimento: ");
+                    movimento = move.nextLine();
+                }
+            }
 
-            // if (casaAnterior.equals("^")) {
-            //     while (!(movimento.toUpperCase().equals("W"))){
-            //         System.out.println("Sentido obrigatório: W");
-            //         System.out.print("Digite o movimento: ");
-            //         movimento = move.nextLine();
-            //     }
-            // }
+            if (casaAnterior.equals("^")) {
+                while (!(movimento.toUpperCase().equals("W"))){
+                    System.out.println("Sentido obrigatório: W");
+                    System.out.print("Digite o movimento: ");
+                    movimento = move.nextLine();
+                }
+            }
 
             // if (casaAnterior.equals("=")) {
             //     while (!(movimento.toUpperCase().equals("A")) && !(movimento.toUpperCase().equals("D"))){
