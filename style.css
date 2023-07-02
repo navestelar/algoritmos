@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.viewport {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.item-mapa {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.icon-mapa{
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow-rigth {
+    background-image: url(./assets/arrow-rigth-off.png);
+}
+
+.arrow-rigth:hover {
+    background-image: url(./assets/arrow-rigth-on.png);
+}
+
+.arrow-top {
+    background-image: url(./assets/arrow-top-off.png);
+}
+
+.arrow-top:hover {
+    background-image: url(./assets/arrow-top-on.png);
+}
+
+.arrow-bottom {
+    background-image: url(./assets/arrow-bottom-off.png);
+}
+
+.arrow-bottom:hover {
+    background-image: url(./assets/arrow-bottom-on.png);
+}
+
+.arrow-left {
+    background-image: url(./assets/arrow-left-off.png);
+}
+
+.arrow-left:hover {
+    background-image: url(./assets/arrow-left-on.png);
+}
+
+.car-rigth {
+    background-image: url(./assets/fusca-amarelo-rigth.png);
+}
